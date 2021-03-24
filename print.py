@@ -19,3 +19,5 @@ if __name__ == '__main__':
     warn_b = "[bold yellow on red]"
     warn_e = "[/bold yellow on red]"
     print(f'{warn_b}Тестируем F-строки{warn_e} Не закрашенный')  # Работает!
+    print("[bold]Bold[italic] bold and italic [/bold]italic[/italic]")
+    print("[italic red]Hello[/italic red] World!", locals())
